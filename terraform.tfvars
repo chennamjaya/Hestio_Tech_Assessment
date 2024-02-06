@@ -1,0 +1,15 @@
+account_no             = "851512651356"
+alb_type               = "public"
+azs                    = ["us-east-1a", "us-east-1b"]
+default_route_table_id = "rtb-03c2c7536a2ba77b5"
+default_vpc_cidr       = "172.31.0.0/16"
+default_vpc_id         = "vpc-0f85d7a6071a32e51"
+env                    = "prod"
+internal               = false
+private_subnets        = ["10.0.2.0/24", "10.0.3.0/24"]
+public_subnets         = ["10.0.0.0/24", "10.0.1.0/24"]
+region                 = "us-east-1"
+vpc_cidr               = "10.0.0.0/16"
+component              = ["private vm", "public vm"]
+app_port               = 80
+alb_sg_allow_cidr      = "203.0.113.0/24"
